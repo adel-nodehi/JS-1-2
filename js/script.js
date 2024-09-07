@@ -30,5 +30,14 @@
 //   console.log(false);
 // }
 
-console.log(15 + true - false);
-// console.log(Number(false));
+const firstName = "shiva";
+const age = 20;
+const isAsleepy = false;
+
+const blockList = "adel";
+
+if (age >= 18 && !isAsleepy && firstName !== blockList) {
+  console.log(`${firstName} can drive`);
+} else {
+  console.log(`${firstName} can not drive`);
+}
