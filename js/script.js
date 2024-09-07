@@ -1,11 +1,14 @@
-const userName = "negin";
-const age = 15;
-let result;
+// type Conversion
 
-if (age >= 18) {
-  result = `${userName} can drive.`;
-} else {
-  result = `${userName} can not drive. you must wait ${18 - age} year's more.`;
-}
+// console.log(Number("20"));
+// console.log(String(20));
 
-console.log(result);
+// type Coercion
+
+// console.log("hello" + 23); // "hello" + "23"
+// console.log(typeof ("12" + 11));
+
+const userInput = Number(prompt("enter a number"));
+
+console.log(typeof userInput);
+console.log(userInput);
